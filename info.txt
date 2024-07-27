@@ -1,0 +1,9 @@
+The full solution of creating multiple images, preparing them for creation of model, creating the model to predict an object on the given image.
+
+imagecreation.py it uses Stable diffusion from Hugging Face to create AI images later used for model creation.
+
+createmodel.py it creates a model using SimpleCNN. It uses created images to train and validate the model.
+
+prediction.py it loads former created model and uses it to classify images.
+
+best model.pth was trained on 3 types of animals: horses, dogs and lions, with 1000 images for each type..
